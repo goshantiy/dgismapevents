@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Тень -->
+  <circle cx="26" cy="26" r="18" fill="rgba(0,0,0,0.2)"/>
+  
+  <!-- Основной круг -->
+  <circle cx="24" cy="24" r="18" fill="#9E9E9E" stroke="white" stroke-width="2"/>
+  
+  <!-- Внутренний белый круг -->
+  <circle cx="24" cy="24" r="8" fill="white"/>
+</svg>

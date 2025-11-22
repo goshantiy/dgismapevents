@@ -1,0 +1,39 @@
+name: gis_maps_app
+description: A Flutter project with 2GIS Maps SDK integration.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dgis_mobile_sdk_full: ^12.8.0
+  permission_handler: ^11.3.1
+  http: ^1.1.0
+  intl: ^0.20.2
+  cached_network_image: ^3.3.0
+  file_picker: ^8.0.0
+  flutter_svg: ^2.0.9
+  table_calendar: ^3.0.9
+  geolocator: ^14.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/config/
+    - assets/dgissdk.key
+    - assets/icon1.svg
+    - assets/icon2.svg
+    - assets/icon3.svg
+
